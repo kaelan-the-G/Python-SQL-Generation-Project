@@ -1,0 +1,23 @@
+CREATE TABLE `couriers` (
+  `courier_ID` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Name` varchar(250) NOT NULL,
+  `Phone` varchar(250) NOT NULL
+);
+
+INSERT INTO `couriers` (`Name`, `Phone`)
+VALUES ('Homer Simpson', '601 789 2432');
+
+INSERT INTO `couriers` (`Name`, `Phone`)
+VALUES ('Peter Griffin', '857 294 7894');
+
+INSERT INTO `couriers` (`Name`, `Phone`)
+VALUES ('Hank Hill', '847 234 5634');
+
+INSERT INTO `couriers` (`Name`, `Phone`)
+VALUES ('Zapp Brannigan', '239 206 1789');
+
+INSERT INTO `couriers` (`Name`, `Phone`)
+VALUES ('Stan Smith', '527 802 6070');
+
+INSERT INTO `couriers` (`Name`, `Phone`)
+VALUES ('Phillip J. Fry', '657 297 1010');

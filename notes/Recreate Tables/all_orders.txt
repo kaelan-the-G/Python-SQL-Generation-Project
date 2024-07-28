@@ -1,0 +1,10 @@
+CREATE TABLE `all_orders` (
+  `order_ID` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `customer_Name` varchar(300) NOT NULL,
+  `customer_Address` varchar(300) NOT NULL,
+  `customer_Phone` varchar(300) NOT NULL,
+  `courier_name` varchar(300) NOT NULL,
+  `status_ID` int NOT NULL,
+  `Items` varchar(300) NOT NULL,
+  FOREIGN KEY (`status_ID`) REFERENCES `order_status_options` (`status_ID`)
+);

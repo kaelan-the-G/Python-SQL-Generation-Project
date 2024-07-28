@@ -1,0 +1,20 @@
+CREATE TABLE `order_status_options` (
+  `status_ID` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `status_name` varchar(250) NOT NULL
+);
+
+
+INSERT INTO `order_status_options` (`status_name`)
+VALUES ('Preparing');
+
+
+INSERT INTO `order_status_options` (`status_name`)
+VALUES ('Ready For Pickup');
+
+
+INSERT INTO `order_status_options` (`status_name`)
+VALUES ('In Transit');
+
+
+INSERT INTO `order_status_options` (`status_name`)
+VALUES ('Delivered');

@@ -1,0 +1,12 @@
+CREATE TABLE `customers` (
+  `customer_ID` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Name` varchar(300) NOT NULL,
+  `Address` varchar(300) NOT NULL,
+  `Phone` varchar(300) NOT NULL
+);
+
+INSERT INTO `customers` (`Name`, `Address`, `Phone`)
+VALUES ('Moon Man', '22 Crater Street, Dark Side City, The moon', '111 111 1111');
+
+INSERT INTO `customers` (`Name`, `Address`, `Phone`)
+VALUES ('Mars Girl', '44 Martian Ave. , The Red City, Mars', '222 222 2222');
